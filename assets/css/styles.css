@@ -20,12 +20,16 @@
 
     .header-row .box {
       padding: 10px;
+      color: #087;
     }
 
     .header-row li {
       display: inline;
       padding: 5px;
       font-size: larger;
+      color: dodgerblue;
+      background-color: aqua;
+      border-radius: 5px;
     }
 
     .header-row a {
@@ -39,11 +43,31 @@
     .row {
       padding: 100px;
       height: 75%;
-    }
 
-    .row .box {
+    }
+    #projects{
+        height: 200px;
+        background-color: silver;
+        /* display: flex; */
+        /* justify-content: center; */
+        justify-content: space-around;
+        /* align-items: center; */
+        /* align-items: center; */
+    }
+    #projects .box:hover {
+      transform: scale(1.2, 1.2);
+    }
+    #projects .box {
       padding: 20px;
       margin: 10px;
+      background: linear-gradient(orange, yellow);
+      padding: 10px;
+      margin: 10px;
+      border: 2px solid red;
+      border-radius: 10px;
+      box-shadow: 2px 2px 2px 2px blue;
+      transition-property: transform;
+      transition-duration: 0.2s;
     }
 
     .footer {
@@ -61,3 +85,4 @@
       border: none;
       border-radius: 10%;
     }
+    
